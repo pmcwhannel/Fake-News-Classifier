@@ -7,4 +7,4 @@ Test Accuracy: 99.988%
 
 **Description of Model:**
 
-I used a transfer learning technique, in which I took the "bert_base_cased" and fine tuned it through the CLS output layer (768 dim) with dropout followed by a linear transformation and then a cross entropy loss. I tried adding more complexity though it didn't lead to increased performance therefore I stuck with the aforementioned additions.
+I used a transfer learning technique in which I loaded the "bert_base_cased" pretraining weights of BERT and fine tuned it through the CLS output layer (768 dim) with dropout followed by a linear transformation and then a cross entropy loss. I tried adding more complexity though it didn't lead to increased performance therefore I stuck with the aforementioned additions.
